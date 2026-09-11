@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- LINK COM O CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- id - identificador único, só um elemento pode ter -->
+    <header id="topo">
+        <h1>EXEMPLOS DE TIPOS DE SELETORES</h1>
+        <p class="texto-top">
+            Esta página apresenta diferentes formas de selecionar um elemento
+        </p>
+    </header>
+</body>
+</html>
+
+    
+<!-- SUBSTITUA AQUI -->
+<main>
+    <section class="bloco">
+        <h2>Seletor de elemento</h2>
+        <p>Este é um parágrafo comum.</p>
+        <p>Este é outro parágrafo comum.</p>
+    </section>
+
+    <section class="bloco destaque">
+        <h2>Seletor de classe</h2>
+        <p class="texto-destaque">Este parágrafo possui uma classe específica.</p>
+    </section>
+
+    <section class="bloco">
+        <h2>Seletor de ID</h2>
+        <div id="caixa-unica">Esta caixa possui um ID único.</div>
+    </section>
+
+    <section class="bloco">
+        <h2>Filho direto</h2>
+        <div class="pai-direto">
+            <p>Filho direto da div.</p>
+            <section>
+                <p>Este p não é filho direto.</p>
+            </section>
+        </div>
+    </section>
+
+    <section class="bloco">
+        <h2>Irmão adjacente</h2>
+        <h3>Título h3</h3>
+        <p>Parágrafo imediatamente após o h3.</p>
+        <p>Parágrafo seguinte.</p>
+    </section>
+</main>
+
+
+
+<main>
+  <section class="bloco">
+    <h2>Elemento com ID</h2>
+    <div id="painel">Painel principal</div>
+  </section>
+
+  <section class="bloco">
+    <h2>Hierarquia complexa</h2>
+    <nav id="menu">
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </section>
+</main>

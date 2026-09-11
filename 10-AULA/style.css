@@ -1,0 +1,131 @@
+/* SELECIONA TODOS OS ELEMENTOS */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* SELETOR POR TAG */
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* SELETOR POR TAG */
+body {
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* SELETOR POR ID */
+#topo {
+    
+    margin: 15px 0px;
+    border:10px solid orange;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+/* SELETOR POR CLASS */
+.texto-top {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 25px;
+}
+/* estiliza os elementos com a class bloco */
+.bloco {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px dashed  black;
+    border-radius: 20px  ;
+}
+.destaque{
+    background-color: gold;
+    border: gold;
+    font-weight: bolder;
+    color: darkred;
+}
+
+.texto-destaque{
+font-weight: bolder;
+color: #000;
+
+
+
+}
+
+/*AAAAA*/
+#caixa-unica{
+    background-color: #ede9fe;
+    padding: 10px;
+    border: 2px solid purple;
+
+}
+
+/* SELECIONA TODOS OS 'P' QUE ESTÃO DIV*/
+div p {
+    color:blue
+
+}
+
+/* SELECIONA TODOS O 'P' QUE SÃO FILHOS DIRETOS DA CLASS ESPECIFICA */
+.pai-direito > p{
+    color: pink;
+
+}
+/*SELECIONA TODO O 'P' QUE VEM LGO APÓS UM H3, DESDE QUE SEJA IRMÃO*/
+ h3 + p {
+    color: red;
+
+ }
+ /* SELECIONA TODOS OS 'P' QUE VEM APOS O H4, DESDE QUE SEJAM IRMÓES*/
+ h4 ~ p{
+    background-color:
+    blueviolet;
+    color: yellow;
+ }
+ /* SELECIONA POR ATRIBUTOS ESPECÍFICOS */
+
+ /* SELECIONA TODOS OS INPUTS, QUE TENHAM TIPO TEXTO*/
+ input[type="text"]{
+    border: 2px solid gold;
+    padding: 8px;
+    margin-right: 10px;
+ }
+
+
+ /* SELECIONA TODOS OS LINKS QUE TENHA ESE VALOR NO HREF*/
+ 
+    a[href*="microsoft"]{
+        color:green;
+    font-weight: bolder;
+ }
+  
+h5,h6 {
+  color: purple;
+  margin: 5px 0px;
+  font-weight: bolder;
+} 
+/* SELECIONA O ELEMENTO QUE TEM AS DUAS CLASSES AO MESMO TEMPO*/
+.botao.ativo{
+    color: red;
+    font-size: 30px;
+    padding: 50;
+}
+/* SELECIONA O 'P' DESDE DE DE QUE TENHA A CLASS AVISO */
+p.aviso{
+    color:chartreuse;
+}
+
+div#painel{
+    background-color: red;
+    padding: 10px;
+}
+
+/* SELECIONANDO FILHO DENTRO DO FILHO*/
+#menu  ul a{
+    color: violet;
+
+   }

@@ -1,0 +1,50 @@
+* {
+    margin:0px;
+    padding:0px;
+
+}
+
+#topo{
+    margin-left:225px;
+    margin-right:225px;
+    
+    background-color: rgb(247, 246, 246);
+    padding: 0px;
+    background-color: white;
+    color: rgba(255, 255, 255, 0.637);
+    border-color:rgba(255, 255, 255, 0.637);
+    font-size: 10px;
+   
+    
+    
+}
+    
+
+li{
+ 
+    background-color: white;
+   
+    color: white ;
+  
+    width: 200px;
+  
+    height: 50px;
+    
+    font-size: 30px;
+   
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.doc{
+    background-color:rgb(126, 230, 126);
+    font-size: 15px;
+    margin-left:225px;
+    margin-right:225px;
+    
+    
+}
+.doc1{
+    
+}
