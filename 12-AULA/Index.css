@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI - Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>FINDES <span>SENAI</span></h2>
+            <small>Serviço Nacional de<br>Aprendizagem Industrial</small>
+        </div>
+
+        <nav>
+            <a href="#">Cursos</a>
+            <a href="#">Fale Conosco</a>
+            <a href="#">Portal do Aluno</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="banner-texto">
+            <h1>A ESCOLHA QUE<br><strong>ABRE PORTAS</strong></h1>
+            <a href="#" class="botao-branco">MATRICULE-SE JÁ</a>
+        </div>
+
+        <div class="banner-imagem">
+            <img src="img/banner.jpg" alt="Alunos em aula prática">
+        </div>
+    </section>
+
+    <main>
+        <h1 class="titulo">Cursos em Destaque</h1>
+
+        <section class="cursos">
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Desenvolvimento de sistemas">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS</h2>
+                    <p>Aprenda programação, criação de sites e desenvolvimento de sistemas.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Jogos digitais">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM JOGOS DIGITAIS</h2>
+                    <p>Conheça o desenvolvimento de jogos e a criação de experiências digitais.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Enfermagem">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM ENFERMAGEM</h2>
+                    <p>Conheça a área da saúde e os cuidados com os pacientes.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Logística">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM LOGÍSTICA</h2>
+                    <p>Aprenda sobre transporte, estoque e organização de mercadorias.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Moda">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM MODA</h2>
+                    <p>Aprenda sobre tendências, criação e desenvolvimento de peças.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="img/curso.jpg" alt="Portos">
+                <div class="conteudo">
+                    <span class="cidade">VITÓRIA</span>
+                    <h2>TÉCNICO EM PORTOS</h2>
+                    <p>Conheça as operações portuárias e a movimentação de cargas.</p>
+                    <a href="#" class="botao">INSCREVA-SE</a>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3>Links Úteis</h3>
+            <a href="#">Cursos gratuitos</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Ouvidoria</a>
+            <a href="#">Compliance</a>
+            <a href="#">LGPD</a>
+        </div>
+
+        <div>
+            <h3>SAC - Serviço de atendimento ao cliente</h3>
+            <p>Telefone: 4002-8922</p>
+            <p>WhatsApp: 2797070-7070</p>
+            <p>Segunda a sexta-feira</p>
+        </div>
+
+        <div>
+            <h3>Redes Sociais</h3>
+            <p>Instagram | YouTube | TikTok</p>
+            <p>Facebook | X</p>
+        </div>
+    </footer>
+
+</body>
+</html>
